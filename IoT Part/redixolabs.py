@@ -1,4 +1,4 @@
-import conf
+import connections
 from boltiot import Sms, Bolt
 import json, time
 
