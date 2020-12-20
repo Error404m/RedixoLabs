@@ -10,7 +10,7 @@ Smart Agro Project is an IoT and AI project consists of several sensors that sen
  > Our model have several sensors that takes readings from farmers field through microcontroller . We've set thresold minimum and maximum values for each sensors when sensor values will be out of thresold values, then we'll send alerts.
 In demo, we've used temperature & intensity sensors, here temperature value is less than the minimum thresold value, so simply we are turning on electric motor(LED for demo) and sending alerts over text message .
 
-   Video Link[https://youtu.be/sZSdsnOvSpY]
+   Video Link : https://youtu.be/sZSdsnOvSpY
      
 ### Deep Learning Model Demo
 
