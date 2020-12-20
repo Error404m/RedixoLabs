@@ -3,8 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RedixoLabs | IIIC</title>
+    <title>RadixoLabs | Hack in the North</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="login.css" />
   </head>
   <body>
     <header>
@@ -12,12 +19,12 @@
         <span class="navbar-toggle" id="js-navbar-toggle">
           <i class="fa fa-bars"></i>
         </span>
-        <div class="brand">Smart Agro Tech | BHacks</div>
+        <div class="brand">Smart Agro Tech | Hack In the North</div>
         <ul class="main-nav" id="js-menu">
-          <li><a href="./index.html">Home</a></li>
+          <li><a href="#">Home</a></li>
           <li><a href="#">Products</a></li>
-          <li><a href="./login.html">Login</a></li>
-          <li><a href="./login.html">Register</a></li>
+          <li><a href="#login-sec">Login</a></li>
+          <li><a href="#login-sec">Register</a></li>
           <li><a href="#contactus">Contact</a></li>
         </ul>
       </nav>
@@ -31,15 +38,75 @@
             SMART AGRO TECH kit is designed by several agro sensors. It will
             take readings continuously through microcontroller & sends data to
             cloud. For Chemicals/Fertilizers alert, We’ve trained a Machine
-            Learning model with various crops database. <br /><strong>
-              # Lets connect Farmers with Technology</strong
-            >
+            Learning model with various crops database. <br />
+            <strong> # Lets connect Farmers with Technology </strong>
           </h2>
         </div>
-        <a class="Showcase_button" target="_blank" rel="noopener noreferrer"
-          >Buy Now</a
-        >
+        <a class="Showcase_button" target="_blank" rel="noopener noreferrer">
+          Buy Now
+        </a>
       </div>
+    </div>
+
+    <div id="login-sec">
+      <div class="container" id="container">
+        <div class="form-container sign-up-container">
+          <form action="#">
+            <h1>Create Account</h1>
+            <div class="social-container">
+              <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social"
+                ><i class="fab fa-google-plus-g"></i
+              ></a>
+              <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span>or use your email for registration</span>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button id="popup">Farmer Sign Up</button>
+            <button>Bank Register</button>
+            <button>Mandi Register</button>
+          </form>
+        </div>
+        <div class="form-container sign-in-container">
+          <form action="#">
+            <h1>Sign in</h1>
+            <div class="social-container">
+              <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social"
+                ><i class="fab fa-google-plus-g"></i
+              ></a>
+              <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span>or use your account</span>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <a href="#">Forgot your password?</a>
+            <button>Farmer Sign In</button>
+            <button>Bank Sign In</button>
+            <button>Mandi Sign In</button>
+          </form>
+        </div>
+        <div class="overlay-container">
+          <div class="overlay">
+            <div class="overlay-panel overlay-left">
+              <h1>Welcome Back!</h1>
+              <p>
+                To keep connected with us please login with your personal info
+              </p>
+              <button class="ghost" id="signIn">Sign In</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+              <h1>Hello!</h1>
+              <p>Enter your details and start journey with us</p>
+              <button class="ghost" id="signUp">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="login.js"></script>
     </div>
 
     <div class="contact" id="contactus">
@@ -93,7 +160,6 @@
           |
           <a href="#contactus">Contact</a>
         </p>
-
       </div>
 
       <div class="footer-center">
@@ -108,16 +174,14 @@
           <i class="fa fa-phone"></i>
           <p>+91 XXXXXXXXXX</p>
         </div>
-        </div>
       </div>
       <div class="footer-right">
         <p class="footer-company-about">
           <span>About the company</span>
-          SMART AGRO TECH kit is designed by several agro sensors. It will
-            take readings continuously through microcontroller & sends data to
-            cloud. 
+          SMART AGRO TECH kit is designed by several agro sensors. It will take
+          readings continuously through microcontroller & sends data to cloud.
         </p>
-    </div>
+      </div>
     </footer>
   </body>
 
