@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RadixoLabs | Hack in the North</title>
+    <title>RadixoLabs | Streamr</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -19,7 +19,7 @@
         <span class="navbar-toggle" id="js-navbar-toggle">
           <i class="fa fa-bars"></i>
         </span>
-        <div class="brand">Smart Agro Tech | Hack In the North</div>
+        <div class="brand">Smart Agro Tech | Streamr</div>
         <ul class="main-nav" id="js-menu">
           <li><a href="#">Home</a></li>
           <li><a href="#">Products</a></li>
@@ -42,7 +42,12 @@
             <strong> # Lets connect Farmers with Technology </strong>
           </h2>
         </div>
-        <a class="Showcase_button" target="_blank" rel="noopener noreferrer">
+        <a
+          class="Showcase_button"
+          id="popup"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Buy Now
         </a>
       </div>
@@ -51,26 +56,31 @@
     <div id="login-sec">
       <div class="container" id="container">
         <div class="form-container sign-up-container">
-          <form action="#">
+          <form method="post" action="contact.php" >
             <h1>Create Account</h1>
-            <div class="social-container">
-              <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" class="social"
-                ><i class="fab fa-google-plus-g"></i
-              ></a>
-              <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-            <span>or use your email for registration</span>
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Password" />
-            <button id="popup">Farmer Sign Up</button>
-            <button>Bank Register</button>
-            <button>Mandi Register</button>
+          
+            <input type="text" id="name" name="name" placeholder="Name" required />
+             <input type="email" id="email" name="email" placeholder="Email" required />
+            <input type="text" id="mnumber" name="mnumber" placeholder="Mobile Number" required />
+             <input type="password" name="password" placeholder="Password" required />
+             <input type="text" id="kitid" name="kitid" placeholder="Kit Unique ID" required />
+            <input type="text" id="cname" name="cname" placeholder="Crop Name" required />
+            <input type="text" id="area" name="area" placeholder="Field area" />
+            <input type="text" id="address" name="address" placeholder="Address" />
+            <input
+              type="text"
+              name="khasra" id="khasra"
+              placeholder="Kishan Khasra Number (Optional)"
+            />
+            <button  type="submit" value="Submit">Farmer Sign Up</button>
+            <!-- <button>Bank Register</button>
+            <button>Mandi Register</button> -->
           </form>
         </div>
         <div class="form-container sign-in-container">
-          <form action="#">
+              <form name="subscribForm" method="post" action="login.php" >
+
+          
             <h1>Sign in</h1>
             <div class="social-container">
               <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -80,10 +90,11 @@
               <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
             </div>
             <span>or use your account</span>
-            <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Password" />
+            <input type="email" name="email"  placeholder="Email" />
+            <input type="password" name="password"  placeholder="Password" />
             <a href="#">Forgot your password?</a>
-            <button>Farmer Sign In</button>
+            
+            <button type="submit" value="Submit">Farmer Sign In</button>
             <button>Bank Sign In</button>
             <button>Mandi Sign In</button>
           </form>
