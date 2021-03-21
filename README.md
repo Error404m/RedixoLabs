@@ -1,4 +1,4 @@
-# RedixoLabs | Smart Agro Project | Hacka-Demic
+# RedixoLabs | Smart Agro Project | HackNITR
 
 -------------------
 ## About Project
