@@ -1,8 +1,8 @@
-# RedixoLabs | Smart Agro Project | HackNITR
+# Smart Agro Project 
 
 -------------------
 ## About Project
-Smart Agro Project is an IoT and AI project consists of several sensors that sends alerts over the text messages/email/calls to farmers .
+Smart Agro Project is an IoT kit consists of several sensors that takes realtime readings from formers field and sends alerts over the text messages/email/calls to farmers when needed to act .
 
 ## DEMO
 ### IoT Kit Demo
