@@ -6,5 +6,5 @@ Smart Agro Project is an IoT kit consists of several sensors that takes realtime
 
 ## Demo Video
 
-[![Watch the video](ss/demo2.png)](https://youtu.be/RTORt3Mbf3Q)
+[![Watch the video](../ss/demo2.png)](https://youtu.be/RTORt3Mbf3Q)
 
