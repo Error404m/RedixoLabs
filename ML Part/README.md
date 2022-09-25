@@ -158,3 +158,4 @@ Now system will auto show status of crops ,if disease detected it will shoe name
  > ###    Disease cure recommendations
  <br> <img src="ss/dis_rec.png"  height="370" /> <br>
  
+ <hr>
