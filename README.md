@@ -10,6 +10,11 @@ Smart Agro Project is an IoT kit consists of several sensors that takes realtime
  > Our model have several sensors that takes readings from farmers field through microcontroller . We've set thresold minimum and maximum values for each sensors when sensor values will be out of thresold values, then we'll send alerts.
 In demo, we've used temperature & intensity sensors, here temperature value is less than the minimum thresold value, so simply we are turning on electric motor(LED for demo) and sending alerts over text message .
 
+
+## Demo Video
+[![Watch the video](demo/1.png)]([https://drive.google.com/file/d/1D_P6y_Q1rS1wJEiU-l4j0-WtrBpyqF4m/view?usp=sharing](https://youtu.be/sZSdsnOvSpY))
+[![Watch the video](demo/2.png)]([https://drive.google.com/file/d/1D_P6y_Q1rS1wJEiU-l4j0-WtrBpyqF4m/view?usp=sharing](https://youtu.be/sZSdsnOvSpY))
+
    Video Link : https://youtu.be/sZSdsnOvSpY
      
 ### Deep Learning Model Demo
