@@ -37,9 +37,3 @@ In demo, we've used temperature & intensity sensors, here temperature value is l
 > Now days, farmers sells thier crops at very cheap rates with mediators and farmers are not getting government scheames . For this problem we've developed a model that analyzes the expected production of crops and send data to governments , Mandis, banks, etc. iff farmers enables data sharing mode .
 
    https://error404m.github.io/RedixoLabs/WebD%20Part/index.html
-
-## Team Members:- 
-1) Mrityunjaya Tiwari 
-2) Raunak Singh Rathore
-3) Pravallika Kodi
-4) Manish Kumar
