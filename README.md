@@ -12,10 +12,10 @@ In demo, we've used temperature & intensity sensors, here temperature value is l
 
 
 ## Demo Video
-[![Watch the video](demo/1.png)]([https://drive.google.com/file/d/1D_P6y_Q1rS1wJEiU-l4j0-WtrBpyqF4m/view?usp=sharing](https://youtu.be/sZSdsnOvSpY))
-[![Watch the video](demo/2.png)]([https://drive.google.com/file/d/1D_P6y_Q1rS1wJEiU-l4j0-WtrBpyqF4m/view?usp=sharing](https://youtu.be/sZSdsnOvSpY))
+[![Watch the video](ss/demo1.png)]([https://youtu.be/-yZl5cQh0Y8](https://youtu.be/-yZl5cQh0Y8))
+<hr>
+[![Watch the video](ss/demo2.png)]([https://youtu.be/-yZl5cQh0Y8](https://youtu.be/-yZl5cQh0Y8))
 
-   Video Link : https://youtu.be/sZSdsnOvSpY
      
 ### Deep Learning Model Demo
 
